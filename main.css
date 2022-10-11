@@ -1,0 +1,282 @@
+#home-pig{
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 15px 15px ;
+
+}
+
+#cat-pig{
+    width: 10px;
+}
+
+body{
+    background-color: #7a7aa3;
+    margin: 0;
+    font-family:"Sofia Pro Black",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #5152a8 ;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#porfolio{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #5152a8 ;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#all{
+    margin-top: -20px ;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #5152a8 ;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+ 
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    text-transform: uppercase;
+    background-color:  #6667AB ;
+    padding: 18px;
+    color:white;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navbar-item1{
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+} 
+.navbar-item{
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+}
+.navbar-item1::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #7a7aa3;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: 0.5s;
+}
+.navbar-item1:hover::after{
+    width: 100%;
+}
+.navbar-item::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #7a7aa3;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: 0.5s;
+}
+.navbar-item:hover::after{
+    width: 100%;
+}
+.navbar-right {
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 5px 15px ;
+}
+#home-pig{
+    justify-content: center;
+}
+.home-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    margin: 20px;
+}
+li{
+
+    font-size: 25px;
+    color: #414281;
+    text-shadow: 1px 1px rgb(189, 187, 187);
+}
+
+html .body2{
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
+.skill-bar{
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 2);
+}
+
+.skill-bar .bar{
+    margin:  20px 0;
+}
+
+.skill-bar .bar:first-child{
+    margin-top: 0px ;
+}
+
+.skill-bar .bar .info{
+    margin-bottom: 5px;
+}
+
+.skill-bar .bar .info span{
+    font-size: 20px;
+    font-weight: 500%;
+}
+
+.skill-bar .bar .progress-line{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0,0.05),
+                    0px 1px rgba(255, 255, 255, 0.8);
+   
+}
+
+.bar .progress-line span{
+    height: 100%;
+    width: 80%;
+    background: #6665ee;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.progress-line.csharp span{
+    width: 35%;
+}
+.progress-line.html span{
+    width: 40%;
+}
+.progress-line.language span{
+    width: 60%;
+}
+.progress-line.gaming span{
+    width: 100%;
+}
+
+.bar .progress-line span::before{
+    position: absolute;
+    content: "";
+    right: 0px;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+}
+.bar .progress-line span::after{
+    position: absolute;
+    right: 0px;
+    top: -28px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 1px 8px;
+    border-radius: 3px;
+    background: #000 ;
+}
+
+.progress-line.csharp span::after{
+    content: "35%";
+}
+.progress-line.html span::after{
+    content: "40%";
+}
+.progress-line.language span::after{
+    content: "60%";
+}
+.progress-line.gaming span::after{
+    content: "100%";
+}
+
+.contact-page{
+    font-size: 25px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.contact-item{
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+}
+.contact-item::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #45458f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: 0.5s;
+}
+.contact-item:hover::after{
+    width: 100%;
+}
+video{
+    width: 500px;
+}
+.project-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-vdo{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 20px
+}
+
+.project-page{
+    color:#414281;
+    text-shadow: 2px 2px #f0f0f0;
+    font-size: 30px;
+}
+.ass-home{
+    font-size: 20px;
+    text-align: left;
+}

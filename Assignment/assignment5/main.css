@@ -1,0 +1,9 @@
+body{
+    background-color: aquamarine;
+    border: 10px solid rgb(61, 150, 177);
+    text-align: center;
+    size: 50px;
+}
+div{
+    background-color: rgb(112, 206, 235);
+}
